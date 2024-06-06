@@ -64,7 +64,7 @@ onValue(commentDb,(snapshot)=>{
     dsplyEl.innerHTML = ""; 
  for(let i=cntsV.length-1;i>=(cntsV.length-4);i--){
    dsplyEl.innerHTML+=` <div class="endorsement">
-   <p><strong>To ~ ${cntsV[i].to}</strong></p>
+   <p><strong>To : ${cntsV[i].to}</strong></p>
    <p>${cntsV[i].comment}</p>
    <p>~ by ${cntsV[i].from}</p>
    <p class="heart" data-id="${cntsV[i].key}">❤️ ${cntsV[i].likes}</p>
